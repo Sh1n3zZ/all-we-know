@@ -1,0 +1,16 @@
+{
+    "metadata": {
+        "title": "All We Know",
+        "description": "Nothing."
+    },
+    "hero": {
+        "eyebrow": "Interactive component",
+        "title": {
+            "line1": "Ship faster.",
+            "line2": "Build better."
+        },
+        "subtitle": "A motion-native component library for React — animated, accessible, and production-ready.",
+        "primaryCTA": "Get started",
+        "secondaryCTA": "View components"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "metadata": {
+        "title": "All We Know",
+        "description": "Nothing."
+    },
+    "hero": {
+        "eyebrow": "交互式组件",
+        "title": {
+            "line1": "更快交付。",
+            "line2": "更好构建。"
+        },
+        "subtitle": "一个为 React 设计的原生动画组件库 — 动画化、无障碍、生产就绪。",
+        "primaryCTA": "开始使用",
+        "secondaryCTA": "查看组件"
+    }
+}

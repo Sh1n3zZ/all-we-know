@@ -1,0 +1,11 @@
+"use client"
+
+import * as React from "react"
+import { ClientThemeProvider } from "@wrksz/themes/client"
+
+export function ThemeProvider({
+  children,
+  ...props
+}: React.ComponentProps<typeof ClientThemeProvider>) {
+  return <ClientThemeProvider {...props}>{children}</ClientThemeProvider>
+}
