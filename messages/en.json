@@ -1,16 +1,87 @@
 {
     "metadata": {
-        "title": "All We Know",
-        "description": "Nothing."
+        "title": "LightXi",
+        "description": "Connecting infinite possibilities."
+    },
+    "nav": {
+        "title": "LightXi"
     },
     "hero": {
-        "eyebrow": "Interactive component",
+        "eyebrow": "GLOBAL EDGE NETWORK",
         "title": {
-            "line1": "Ship faster.",
-            "line2": "Build better."
+            "line1": "Content Delivered",
+            "line2": "at the Speed of Light"
         },
-        "subtitle": "A motion-native component library for React — animated, accessible, and production-ready.",
+        "subtitle": "From here, join us in connecting infinite possibilities.",
         "primaryCTA": "Get started",
         "secondaryCTA": "View components"
+    },
+    "map": {
+        "eyebrow": "Global Coverage",
+        "title": "Connected Worldwide, Reaching Every Corner",
+        "description": "Our edge network spans major nodes across the globe, delivering low-latency, high-availability content to your users.",
+        "primaryCTA": "View Network",
+        "secondaryCTA": "Learn More"
+    },
+    "partner": {
+        "title": "Our Partners"
+    },
+    "popsMap": {
+        "title": {
+            "text": "Connect",
+            "words": ["The Whole World", "Faster Transmission", "Any Location"]
+        },
+        "description": "Get closer to your users, optimize traffic from your source to destination"
+    },
+    "highAvailability": {
+        "eyebrow": "RELIABILITY",
+        "title": "High Availability & Auto Failover",
+        "description": "Enterprise-grade reliability with automatic failover",
+        "stats": {
+            "uptime": {
+                "label": "Uptime",
+                "diff": "vs last month"
+            },
+            "mttr": {
+                "label": "Mean Time to Recovery"
+            },
+            "failovers": {
+                "label": "Auto Failovers",
+                "diff": "last 30 days"
+            }
+        },
+        "failover": {
+            "nodeOnline": "Node {node} is now online",
+            "nodeOffline": "Node {node} went offline",
+            "failoverTriggered": "Failover triggered to {node}",
+            "healthCheckPassed": "Health check passed for {node}"
+        },
+        "protection": {
+            "title": "DDoS Protection & Mitigation",
+            "description": "Advanced multi-layer DDoS protection with real-time traffic analysis and automated mitigation. Our distributed scrubbing centers filter malicious traffic while ensuring legitimate requests reach your infrastructure without interruption."
+        },
+        "streamingOptimization": {
+            "title": "AI Streaming Response Optimization",
+            "description": "SSE streaming optimization designed for large language models. Significantly reduces time-to-first-token, supports long-distance real-time transmission and intelligent connection keep-alive. Delivers smooth real-time AI interaction experiences."
+        },
+        "notifications": {
+            "title": "Failover Notifications",
+            "description": "Real-time failover notifications and alerts",
+            "cta": "View all"
+        },
+        "trendChart": {
+            "cta": "Learn more"
+        }
+    },
+    "failoverNotifications": {
+        "nodeOnline": "Node online",
+        "trafficRerouted": "Traffic rerouted",
+        "healthCheckPassed": "Health check passed",
+        "failoverComplete": "Failover complete",
+        "description": "Global Network",
+        "timeAgo": {
+            "minutes": "{count}m ago",
+            "hours": "{count}h ago"
+        }
     }
 }

@@ -22,6 +22,12 @@
     "hooks": "@/hooks"
   },
   "registries": {
-    "@nexus-labs": "https://nexus-ui.com/r/{name}.json"
+    "@nexus-labs": "https://nexus-ui.com/r/{name}.json",
+    "@flightcn": "https://flightcn.yencheng.dev/r/{name}.json",
+    "@eldoraui": "https://eldoraui.site/r/{name}.json",
+    "@magicui": "https://magicui.design/r/{name}",
+    "@tool-ui": "https://www.tool-ui.com/r/{name}.json",
+    "@bklit": "https://ui.bklit.com/r/{name}.json",
+    "@aceternity": "https://ui.aceternity.com/registry/{name}.json"
   }
 }

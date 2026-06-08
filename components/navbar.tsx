@@ -5,6 +5,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { AnimatePresence, motion, useScroll } from "framer-motion"
+import { useTranslations } from "next-intl"
 
 import { cn } from "@/lib/utils"
 import { NavMenu } from "@/components/nav-menu"
@@ -52,6 +53,7 @@ const drawerMenuVariants = {
 }
 
 export function Navbar() {
+  const t = useTranslations("nav")
   const { scrollY } = useScroll()
   const [hasScrolled, setHasScrolled] = useState(false)
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
@@ -110,10 +112,10 @@ export function Navbar() {
           )}
         >
           <div className="flex h-[56px] items-center justify-between p-4">
-            <Link href="/" className="flex items-center gap-3">
-              <Image src="/favicon.ico" alt="Logo" width={24} height={24} className="-mt-1 size-4 md:size-6" />
-              <p className="text-primary ml-1 text-lg font-semibold">
-                EldoraUI
+            <Link href="/" className="flex items-center gap-3 shrink-0">
+              <Image src="/lightxi.svg" alt="Logo" width={24} height={24} className="-mt-1 size-4 md:size-6" />
+              <p className="text-primary ml-1 text-lg font-semibold whitespace-nowrap">
+                {t("title")}
               </p>
             </Link>
 
@@ -169,9 +171,9 @@ export function Navbar() {
               <div className="flex flex-col gap-4">
                 <div className="flex items-center justify-between">
                   <Link href="/" className="flex items-center gap-3">
-                    <Image src="/favicon.ico" alt="Logo" width={28} height={28} className="size-7 md:size-10" />
+                    <Image src="/lightxi.svg" alt="Logo" width={28} height={28} className="size-7 md:size-10" />
                     <p className="text-primary text-lg font-semibold">
-                      SkyAgent
+                      {t("title")}
                     </p>
                   </Link>
                   <button

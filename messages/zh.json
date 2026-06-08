@@ -1,16 +1,87 @@
 {
     "metadata": {
-        "title": "All We Know",
-        "description": "Nothing."
+        "title": "晞云云计算",
+        "description": "连接无限可能"
+    },
+    "nav": {
+        "title": "晞云"
     },
     "hero": {
-        "eyebrow": "交互式组件",
+        "eyebrow": "全球边缘网络",
         "title": {
-            "line1": "更快交付。",
-            "line2": "更好构建。"
+            "line1": "内容交付",
+            "line2": "即刻触达全球"
         },
-        "subtitle": "一个为 React 设计的原生动画组件库 — 动画化、无障碍、生产就绪。",
+        "subtitle": "从这里开始，与我们一起连接无限可能",
         "primaryCTA": "开始使用",
         "secondaryCTA": "查看组件"
+    },
+    "map": {
+        "eyebrow": "全球覆盖",
+        "title": "连接全球，触达每一个角落",
+        "description": "我们的边缘网络遍布全球各大节点，为您的用户提供低延迟、高可用的内容交付服务。",
+        "primaryCTA": "查看节点分布",
+        "secondaryCTA": "了解更多"
+    },
+    "partner": {
+        "title": "我们的合作伙伴"
+    },
+    "popsMap": {
+        "title": {
+            "text": "连接到",
+            "words": ["世界每一个角落", "每一位客户", "任何地点"]
+        },
+        "description": "靠近您的用户，优化从您的源到达目的地的流量"
+    },
+    "highAvailability": {
+        "eyebrow": "可靠性",
+        "title": "高可用性与自动化故障转移",
+        "description": "企业级可靠性，自动故障转移保障",
+        "stats": {
+            "uptime": {
+                "label": "运行时间",
+                "diff": "较上月"
+            },
+            "mttr": {
+                "label": "平均恢复时间"
+            },
+            "failovers": {
+                "label": "自动故障转移",
+                "diff": "最近 30 天"
+            }
+        },
+        "failover": {
+            "nodeOnline": "节点 {node} 已上线",
+            "nodeOffline": "节点 {node} 已下线",
+            "failoverTriggered": "故障转移至 {node}",
+            "healthCheckPassed": "节点 {node} 健康检查通过"
+        },
+        "protection": {
+            "title": "DDoS 防护与缓解",
+            "description": "高级多层 DDoS 防护，配备实时流量分析和自动化缓解机制。我们的分布式清洗中心过滤恶意流量，确保合法请求无中断地到达您的基础设施。"
+        },
+        "streamingOptimization": {
+            "title": "AI 流式响应优化",
+            "description": "专为大语言模型设计的 SSE 流式输出优化，显著降低首 token 响应时间，支持长距离实时传输和智能连接保活。为用户提供流畅的实时 AI 交互体验。"
+        },
+        "notifications": {
+            "title": "故障转移通知",
+            "description": "实时故障转移通知与告警",
+            "cta": "查看全部"
+        },
+        "trendChart": {
+            "cta": "了解更多"
+        }
+    },
+    "failoverNotifications": {
+        "nodeOnline": "节点上线",
+        "trafficRerouted": "流量已重新路由",
+        "healthCheckPassed": "健康检查通过",
+        "failoverComplete": "故障转移完成",
+        "description": "全球网络",
+        "timeAgo": {
+            "minutes": "{count} 分钟前",
+            "hours": "{count} 小时前"
+        }
     }
 }
